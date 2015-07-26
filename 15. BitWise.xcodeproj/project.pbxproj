@@ -14,6 +14,7 @@
 		84A8CE921B6467D7005208B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8CE911B6467D7005208B2 /* Images.xcassets */; };
 		84A8CE951B6467D7005208B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A8CE931B6467D7005208B2 /* LaunchScreen.xib */; };
 		84A8CEA11B6467D7005208B2 /* _5__BitWiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CEA01B6467D7005208B2 /* _5__BitWiseTests.m */; };
+		84A8CEAC1B6467F3005208B2 /* NVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8CEAB1B6467F3005208B2 /* NVStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84A8CE9A1B6467D7005208B2 /* 15. BitWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "15. BitWiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8CE9F1B6467D7005208B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A8CEA01B6467D7005208B2 /* _5__BitWiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5__BitWiseTests.m; sourceTree = "<group>"; };
+		84A8CEAA1B6467F3005208B2 /* NVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVStudent.h; path = ../NVStudent.h; sourceTree = "<group>"; };
+		84A8CEAB1B6467F3005208B2 /* NVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NVStudent.m; path = ../NVStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				84A8CE881B6467D7005208B2 /* AppDelegate.h */,
 				84A8CE891B6467D7005208B2 /* AppDelegate.m */,
+				84A8CEAA1B6467F3005208B2 /* NVStudent.h */,
+				84A8CEAB1B6467F3005208B2 /* NVStudent.m */,
 				84A8CE8B1B6467D7005208B2 /* ViewController.h */,
 				84A8CE8C1B6467D7005208B2 /* ViewController.m */,
 				84A8CE8E1B6467D7005208B2 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A8CE8D1B6467D7005208B2 /* ViewController.m in Sources */,
+				84A8CEAC1B6467F3005208B2 /* NVStudent.m in Sources */,
 				84A8CE8A1B6467D7005208B2 /* AppDelegate.m in Sources */,
 				84A8CE871B6467D7005208B2 /* main.m in Sources */,
 			);
